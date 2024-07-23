@@ -25,7 +25,7 @@ client.on("messageCreate", (message: Message) => {
         break;
 
       default:
-        message.channel.send("unknown argment");
+        message.channel.send("unknown argument");
         break;
     }
   } else {
